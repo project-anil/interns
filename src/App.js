@@ -3,22 +3,36 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <section>
+        <div className="relative">
+          <img
+            className="relative-img"
+            alt=""
+            src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg"
+          />
+          <div className="absolute">
+            <h1>Anil Kumar</h1>
+            <p>Senior Software Engineer</p>
+            <button>Know More</button>
+          </div>
+        </div>
+      </section>
+      <section className="margin-top">
+        <div className="relative_1">
+          <img
+            className="relative-img_1"
+            alt=""
+            src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg"
+          />
+          <div className="absolute_1">
+            <h1>Anil Kumar</h1>
+            <p>Senior Software Engineer</p>
+            <button>Know More</button>
+          </div>
+        </div>
+      </section>
+        </>
   );
 }
 
